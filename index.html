@@ -3351,4 +3351,40 @@
         <p>&copy; Huy xieu dep zai.</p>
     </footer>
 </body>
+<script>// Tạo nút "Lên đầu trang" với biểu tượng mũi tên
+    const scrollToTopBtn = document.createElement('button');
+    scrollToTopBtn.id = 'scrollToTopBtn';
+    scrollToTopBtn.innerHTML = '⬆'; // Biểu tượng mũi tên
+    
+    // Định dạng nút
+    Object.assign(scrollToTopBtn.style, {
+        position: 'fixed',
+        bottom: '20px',
+        right: '20px',
+        padding: '10px',
+        fontSize: '20px',
+        backgroundColor: '#3498db',
+        color: 'white',
+        border: 'none',
+        borderRadius: '50%',
+        cursor: 'pointer',
+        display: 'none',
+        zIndex: '1000',
+        transition: 'background-color 0.3s ease, transform 0.3s ease'
+    });
+    
+    scrollToTopBtn.onmouseover = () => scrollToTopBtn.style.backgroundColor = '#2980b9';
+    scrollToTopBtn.onmouseout = () => scrollToTopBtn.style.backgroundColor = '#3498db';
+    
+    // Thêm nút vào thân trang
+    document.body.appendChild(scrollToTopBtn);
+    
+    window.onscroll = () => {
+        scrollToTopBtn.style.display = (document.documentElement.scrollTop > 200) ? 'block' : 'none';
+    };
+    
+    // Cuộn lên đầu trang khi bấm nút
+    scrollToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+    </script>
 </html>
