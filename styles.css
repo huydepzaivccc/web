@@ -37,23 +37,6 @@ nav ul li a:hover {
 main {
     padding: 10px;
 }
-
-.hero {
-    background: url('https://giakethoitrang.com/Images/kinh-nghiem-mo-shop-quan-%C3%A1o.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 100px 20px;
-    text-align: center;
-    border-radius: 10px;      /* Bo góc */
-    font-family: Arial, sans-serif; /* Phông chữ */
-    font-size: 16px;          /* Kích thước chữ */
-    color:#f0f012;              /* Màu chữ */
-    line-height: 1.6;         /* Chiều cao dòng */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 0, 0, 0.6);
-    
-    
-}
-
 .container {
     background-color: white;
     padding: 20px;
