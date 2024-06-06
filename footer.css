@@ -1,0 +1,155 @@
+footer{
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+    background-color: white;
+}
+.frame_footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2% 2% 2% 5%;
+}
+.colume h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+}
+.colume p{
+    margin-bottom: 8px
+}
+.colume a{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(128, 128, 137);
+    text-decoration: none;
+}
+.payment .icon{
+    margin-right: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+.social_media{
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.social_media a{
+    padding: 0;
+    margin: 0;
+}
+.social_media i{
+    font-size: 30px;
+}
+.download{
+    width: 226px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.download .icon_download{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.colume:nth-child(4){
+    width: 300px;
+}
+@media screen and (max-width: 400px) {
+    footer{
+        margin-top: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: normal;
+        color: rgb(128, 128, 137);
+        background-color: white;
+    }
+    .frame_footer{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0;
+    }
+    .colume h4{
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        color: rgb(56, 56, 61);
+        margin-bottom: 12px;
+    }
+    .colume a{
+        display: block;
+        margin-bottom: 8px;
+        color: rgb(128, 128, 137);
+        text-decoration: none;
+    }
+    .payment{
+        flex-wrap: wrap;
+    }
+    .payment .icon{
+        margin-right: 8px;
+        margin-bottom: 8px;
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+    }
+    .social_media{
+        width: 80px;
+        flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(128, 128, 137);
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social_media a{
+        padding: 0;
+        margin: 5;
+    }
+    .social_media i{
+        font-size: 30px;
+        height: 30px;
+        width: 30px;
+    }
+    .download{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .download .icon_download{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    .colume{
+        width: 190px;
+    }
+    .colume:nth-child(4){
+        width: 190px;
+    }
+    .colume:nth-child(1){
+        display: none;
+    }
+    .colume:nth-child(2){
+        display: none;
+    }
+}
