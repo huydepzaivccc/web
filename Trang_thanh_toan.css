@@ -1,0 +1,392 @@
+html{
+	font-family: 'Times New Roman', Times, serif;
+}
+#icon-mobile {
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+  }
+  
+  .menu-ben-trai {
+    float: left;
+  }
+  
+  .menu-ben-trai li {
+    list-style: none;
+  }
+  
+  .menu-ben-trai a {
+    display: block;
+    padding: 7px 30px 7px 5px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    text-align: left;
+  }
+  
+  .menu-ben-trai a:hover {
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  .menu-ben-trai .title {
+      color: white;
+    padding: 7px 15px 7px 15px;
+    font-size: 20px;
+    text-align: center;
+      background: linear-gradient(to right,#003e52,#1895b0);
+      border-radius: 7px;
+
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .menu-ben-trai ul {
+    padding: 0;
+  }
+.section{
+	display: inline-block;
+	height: auto;
+	width: auto;
+	background-color: white;
+}
+.section-head{
+	margin: 0;
+	font-size: 22px;
+	border: 1px solid rgba(191,191,191,1.00);
+	margin-left: 2px;
+	padding-top: 8px;
+	width: 858px;
+	padding-bottom: 5px;
+	text-indent: 30px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	border-radius: 8px;
+}
+.khung-chua-san-pham{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	width: 874px;
+	min-width: 874px;
+}
+.hinh-san-pham{
+	float: left;
+}
+.hinh-san-pham > *{
+	margin: 10px;
+}
+.hinh-nho{
+	display: inline;
+}
+.hinh-to img{
+	height: 350px;
+	width: 350px;
+}
+.hinh-nho img{
+	height: 100px;
+	width: 100px;
+}
+.thong-tin-san-pham{
+	float: right;
+	margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.thong-tin-san-pham{
+	margin-top: 20px;
+}
+.thong-tin-san-pham p{
+	font-size: 30px;
+}
+.thong-tin-san-pham span{
+	font-size: 20px;
+}
+.thong-tin-san-pham button{
+	background: white;
+	border: 2px solid gray;
+	padding: 15px 30px 15px 30px;
+	color: #000;
+	font-size: 15px;
+	transition: 0.3s;
+}
+.thong-tin-san-pham button:hover{
+	border: 2px solid #0034DD;
+	color: #0034DD;
+}
+.thong-tin-san-pham button:last-child:hover{
+	color: white;
+	background: red;
+	border: 2px solid red;
+}
+
+
+
+.thong-tin-chi-tiet{
+	float: right;
+}
+.thong-tin-chi-tiet p{
+	width: 290px;
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+.thong-tin-chi-tiet .l{
+	text-align: left;
+}
+.thong-tin-chi-tiet .r{
+	float: right;
+}
+.thong-tin-chi-tiet .title{
+	text-align: center;
+	font-size: 20px;
+	border: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.danh-gia-san-pham{
+	float: left;
+	width: 500px;
+	margin-top: 50px;
+    font-family: roboto;
+    
+}
+.danh-gia-san-pham{
+	float: left;
+	width: 500px;
+	margin-top: 50px;
+    font-family: roboto;
+    
+}
+.section{
+	display: inline-block;
+	height: auto;
+	width: auto;
+	background-color: white;
+}
+.section-head{
+	margin: 0;
+	font-size: 22px;
+	border: 1px solid rgba(191,191,191,1.00);
+	margin-left: 2px;
+	padding-top: 8px;
+	width: 858px;
+	padding-bottom: 5px;
+	text-indent: 30px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	border-radius: 8px;
+}
+.khung-chua-san-pham{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	width: 874px;
+	min-width: 874px;
+}
+.product-box{
+	width: 210px;
+	height: 329px;
+	margin: 2px;
+	border: 1px solid rgba(224,224,224,1.00); 
+	float: left;
+	transition: 0.3s;
+}
+.box:hover .hinh{
+	position: absolute;
+	top: 5px;
+}
+
+
+.box:hover .ten-sp{
+	color: blue;
+}
+.product-box a{
+	text-decoration: none;
+}
+.hinh-sp{
+	height: 230px;
+	width: 210px;
+	position: relative;
+}
+.ten-sp{
+	text-align: left;
+	margin: 0;
+	padding: 5px 0 0 10px;
+	font-size: 17px;
+	color: black;
+}
+.gia-tien{
+	margin: 0;
+	padding: 0px 0 0 10px;
+	font-size: 18px;
+	color: red;
+}
+.gia-cu{
+	font-size: 12px;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.icon-cart{
+	height: 16px;
+	width: 16px;
+}
+.them-vao-gio-hang{
+	text-align: right;
+	padding-top: 15px;
+}
+.them{
+	font-size: 12px;
+	padding: 8px 5px 5px 7px;
+	color:rgba(126,126,126,1.00);
+	border: 1px solid rgba(224,224,224,1.00);
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.them:hover{
+	box-shadow: 2px 2px 5px black;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.hinh{
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:contain;
+	position: absolute;
+	top: 20px;
+	height: 210px;
+	width: 210px;
+	transition: 0.3s;
+}
+.box:hover .chi-tiet{
+	color: blue;
+	transition:0.3s;
+}
+#sp001{
+	float: left;
+}
+#sp002{
+	float: left;
+}
+#sp003{
+	float: left;
+}
+#sp005{
+	float: left;
+}
+#sp006{
+	float: left;
+}
+#sp004{
+	float: left;
+}
+.danh-muc-san-pham{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 5px 8px 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	border-radius: 10px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	
+}
+
+.right-content{
+	float: left;
+	border:1px solid rgba(152,152,152,1.00);
+	width: 180px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: white;
+}
+.right-content a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 5px;
+	border-bottom: 2px solid rgba(152,152,152,1.00);
+	border-left: 1px solid rgba(152,152,152,1.00);
+}
+.right-content a:hover{
+	color:white;
+	background: linear-gradient(to left,#003e52,#22C5E8);
+	transition: 0.07s linear;
+	border-radius: 8px;
+}
+#icon-mobile{
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+}
+@font-face{
+	font-family:'Roboto';
+	src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+@font-face{
+	font-family:'Satisfy';
+	src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+body{
+	font-family: 'Roboto';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background: white;
+	min-width: 1120px;
+}
+.clear{
+	clear: both;
+}
+.fixed-top {
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:1000;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+@media(min-width:1220px){
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+.thong-bao-dang-nhap{
+	display: none;
+	background: rgba(0,0,0,0.90);
+	position: fixed;
+	top: 0;
+	z-index: 1003;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+.thong-bao-dang-nhap .ok,.no{
+	padding: 10px;
+	width: 100px;
+	background: none;
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	transition: 0.3s;
+}
+.ok:hover{
+	background: white;
+	color: black;
+}
+.no:hover{
+	background: white;
+	color: black;
+}
+.clearfix{
+	clear: both;
+}
