@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuyDepZai Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Dia_chi.css">
+    <link rel="stylesheet" href="Trang_thanh_toan.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<html>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="td1-box3" style="border: none;position: relative; bottom: 2px;"><a href=""><i class="material-icons">home</i></a></li>
+                <li><a href="index.html#home">Trang Chủ</a></li>
+                <li><a href="index.html#about">Đồ Nam</a></li>
+                <li><a href="index.html#services">Đồ Nữ</a></li>
+                <li><a href="index.html#artists">Đồ Trẻ Em</a></li>
+                <li><a href="index.html#contact">Phụ Kiện</a></li>
+                <li><a href="login.html">Sign up/Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Thanh menu bên trái -->
+        <div class="menu-ben-trai">
+            <ul>
+                <li class="title">Danh Mục Sản Phẩm</li>
+                <li><a href="index.html#about">Áo nam</a></li>
+                <li><a href="index.html#services">Áo nữ</a></li>
+                <li><a href="index.html#artists">Đồ trẻ em</a></li>
+                <li><a href="index.html#contact">Giày</a></li>
+                <li><a href="index.html#contact">Túi sách</a></li>
+                <li><a href="index.html#contact">Vòng</a></li>
+            </ul>
+        </div>
+        <div class="khung-chua-san-pham">
+            <div class="section">
+                <!--Thanh tiêu đề-->
+                <p class="section-head">Cập nhật địa chỉ giao hàng</p>
+                <!--End Thanh tiêu đề-->
+                <div class="clear"></div>
+                <div class="inform-address">
+                    <div class="heading-address">Tạo sổ địa chỉ</div>
+                    <div class="inner-address">
+                        <form action="">
+                            <div class="form-control">
+                                <label for="fullName" class="input-label">Họ và tên: </label>
+                                <div>
+                                    <input type="text" name="fullName" placeholder="Nhập họ và tên" maxlength="50" class="input-box-text" required>
+                                </div>
+                            </div>
+                            <div class="form-control">
+                                <label for="company" class="input-label">Công ty: </label>
+                                <input type="text" name="company" placeholder="Nhập công ty" class="input-box-text">
+                            </div>
+                            <div class="form-control">
+                                <label for="telephone" class="input-label">Số điện thoại: </label>
+                                <div>
+                                    <input type="text" name="telephone" placeholder="Nhập số điện thoại" class="input-box-text" required>
+                                </div>
+                            </div>
+                            <div class="form-control">
+                                <label for="region" class="input-label">Tỉnh/Thành phố: </label>
+                                <select name="region" required>
+                                    <option value>Chọn Tỉnh/Thành phố</option>
+                                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="An Giang">An Giang</option>
+                                    <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+                                    <option value="Bắc Giang">Bắc Giang</option>
+                                    <option value="Bắc Ninh">Bắc Ninh</option>
+                                    <option value="Bến Tre">Bến Tre</option>
+                                    <option value="Bình Dương">Bình Dương</option>
+                                    <option value="Bình Phước">Bình Phước</option>
+                                    <option value="Bình Thuận">Bình Thuận</option>
+                                    <option value="Bình Định">Bình Định</option>
+                                    <option value="Cà Mau">Cà Mau</option>
+                                    <option value="Cần Thơ">Cần Thơ</option>
+                                    <option value="Cao Bằng">Cao Bằng</option>
+                                    <option value="Gia Lai">Gia Lai</option>
+                                    <option value="Hà Giang">Hà Giang</option>
+                                    <option value="Hà Nam">Hà Nam</option>
+                                    <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                    <option value="Hải Dương">Hải Dương</option>
+                                    <option value="Hải Phòng">Hải Phòng</option>
+                                    <option value="Hậu Giang">Hậu Giang</option>
+                                    <option value="Hòa Bình">Hòa Bình</option>
+                                    <option value="Hưng Yên">Hưng Yên</option>
+                                    <option value="Lạng Sơn">Lạng Sơn</option>
+                                    <option value="Lào Cai">Lào Cai</option>
+                                    <option value="Long An">Long An</option>
+                                    <option value="Nam Định">Nam Định</option>
+                                    <option value="Nghệ An">Nghệ An</option>
+                                    <option value="Ninh Bình">Ninh Bình</option>
+                                    <option value="Ninh Thuận">Ninh Thuận</option>
+                                    <option value="Phú Thọ">Phú Thọ</option>
+                                    <option value="Phú Yên">Phú Yên</option>
+                                    <option value="Quảng Bình">Quảng Bình</option>
+                                    <option value="Quảng Nam">Quảng Nam</option>
+                                    <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                    <option value="Quảng Ninh">Quảng Ninh</option>
+                                    <option value="Quảng Trị">Quảng Trị</option>
+                                    <option value="Sóc Trăng">Sóc Trăng</option>
+                                    <option value="Sơn La">Sơn La</option>
+                                    <option value="Tây Ninh">Tây Ninh</option>
+                                    <option value="Thái Bình">Thái Bình</option>
+                                    <option value="Thái Nguyên">Thái Nguyên</option>
+                                    <option value="Thanh Hóa">Thanh Hóa</option>
+                                    <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                    <option value="Tiền Giang">Tiền Giang</option>
+                                    <option value="Trà Vinh">Trà Vinh</option>
+                                    <option value="Tuyên Quang">Tuyên Quang</option>
+                                    <option value="Vĩnh Long">Vĩnh Long</option>
+                                    <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                                    <option value="Yên Bái">Yên Bái</option>
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label for="district" class="input-label">Quận Huyện: </label>
+                                <select name="district" required>
+                                    <option value>Chọn Quận/Huyện</option>
+                                    <option value="Quận Ba Đình">Quận Ba Đình</option>
+                                    <option value="Quận Hoàn Kiếm">Quận Hoàn Kiếm</option>
+                                    <option value="Quận Hai Bà Trưng">Quận Hai Bà Trưng</option>
+                                    <option value="Quận Đống Đa">Quận Đống Đa</option>
+                                    <option value="Quận Cầu giấy">Quận Cầu giấy</option>
+                                    <option value="Quận Long Biên">Quận Long Biên</option>
+                                    <option value="Quận Hoàng Mai">Quận Hoàng Mai</option>
+                                    <option value="Huyện Sóc Sơn">Huyện Sóc Sơn</option>
+                                    <option value="Quận Bắc Từ Liêm">Quận Bắc Từ Liêm</option>
+                                    <option value="Huyện Thanh Trì">Huyện Thanh Trì</option>
+                                    <option value="Huyện Gia Lâm">Huyện Gia Lâm</option>
+                                    <option value="Huyện Ba Vì">Huyện Ba Vì</option>
+                                    <option value="Huyện Chương Mỹ">Huyện Chương Mỹ</option>
+                                    <option value="Huyện Đan Phượng">Huyện Đan Phượng</option>
+                                    <option value="Huyện Hoài Đức">Huyện Hoài Đức</option>
+                                    <option value="Huyện Mỹ Đức">Huyện Mỹ Đức</option>
+                                    <option value="Huyện Phú Xuyên">Huyện Phú Xuyên</option>
+                                    <option value="Huyện Phúc Thọ">Huyện Phúc Thọ</option>
+                                    <option value="Huyện Quốc Oai">Huyện Quốc Oai</option>
+                                    <option value="Huyện Thạch Thất">Huyện Thạch Thất</option>
+                                    <option value="Huyện Thanh Oai">Huyện Thanh Oai</option>
+                                    <option value="Huyện Thường Tín">Huyện Thường Tín</option>
+                                    <option value="Huyện Ứng Hòa">Huyện Ứng Hòa</option>
+                                    <option value="Huyện Mê Linh">Huyện Mê Linh</option>
+                                    <option value="Quận Hà Đông">Quận Hà Đông</option>
+                                    <option value="Thị xã Sơn Tây">Thị xã Sơn Tây</option>
+                                    <option value="Huyện Đông Anh">Huyện Đông Anh</option>
+                                    <option value="Quận Nam Từ Liêm">Quận Nam Từ Liêm</option>
+                                    <option value="Quận Thanh Xuân">Quận Thanh Xuân</option>
+                                    <option value="Quận Tây Hồ">Quận Tây Hồ</option>
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label for="ward" class="input-label">Phường xã: </label>
+                                <select name="ward" required>
+                                    <option value>Chọn Phường/Xã</option>
+                                    <option value="Thị trấn Trạm Trôi">Thị trấn Trạm Trôi</option>
+                                    <option value="Xã An Khánh">Xã An Khánh</option>
+                                    <option value="Xã An Thượng">Xã An Thượng</option>
+                                    <option value="Xã Cát Quế">Xã Cát Quế</option>
+                                    <option value="Xã Di Trạch">Xã Di Trạch</option>
+                                    <option value="Xã Dương Liễu">Xã Dương Liễu</option>
+                                    <option value="Xã Đắc Sở">Xã Đắc Sở</option>
+                                    <option value="Xã Đông La">Xã Đông La</option>
+                                    <option value="Xã La Phù">Xã La Phù</option>
+                                    <option value="Xã Vân Canh">Xã Vân Canh</option>
+                                    <option value="Xã Vân Côn">Xã Vân Côn</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label for="myaddress" class="input-label">Địa chỉ: </label>
+                                <div>
+                                    <textarea name="street" rows="5" placeholder="Nhập địa chỉ" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-control">
+                                <label for="addresstype" class="input-label">Loại địa chỉ: </label>
+                                <label class="typedeliver">
+                                    <input type="radio" name="addresstype" checked>
+                                    <span class="mylabel">Nhà riêng / Chung cư</span>
+                                </label>
+                                <label class="typedeliver">
+                                    <input type="radio" name="addresstype" value="company">
+                                    <span class="mylabel">Cơ quan / Công Ty</span>
+                                </label>
+                            </div>
+                            <div class="form-control">
+                                <label class="input-label">&nbsp;</label>
+                                <label class="check-box">
+                                    <input type="checkbox">
+                                    <span class="mylabel-check">Đặt làm địa chỉ mặc định</span>
+                                </label>
+                            </div>
+                            <div class="form-control">
+                                <label class="input-label">&nbsp;</label>
+                                <a href="xac_nhan_mua_hang.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; color: white; background-color: #4CAF50; border-radius: 5px; border: none; cursor: pointer;">Xác nhận</a>
+                            </div>
+                        </div>
+                        </form>
+                <footer>
+                    <div class="frame_footer">
+                        <div class="colume">
+                            <h4>Hỗ trợ khách hàng</h4>
+                            <p>Hotline: <b>1900-0091</b> </p>
+                            <a href="">Gửi yêu cầu hỗ trợ</a>
+                            <a href="">Hướng dẫn đặt hàng</a>
+                            <a href="">Phương thức vận chuyển</a>
+                            <a href="">Chính sách đổi trả</a>
+                            <a href="">Hướng dẫn trả góp</a>
+                            <a href="">Chính sách hàng nhập khẩu</a>
+                            <a href="">Hỗ trợ khách hàng</a>
+                            <a href="">Báo lỗi bảo mật</a>
+                        </div>
+                        <div class="colume">
+                            <h4>About us</h4>
+                            <a href="">Chính sách bảo mật thanh toán</a>
+                            <a href="">Chính sách bảo mật thông tin cá nhân</a>
+                            <a href="">Điều khoản sử dụng</a>
+                        </div>
+                        <div class="colume">
+                            <h4>Phuơng thức thanh toán</h4>
+                            <p class="payment">
+                                <span class="icon">
+                                    <img src="img/payment1.png" style="width: 32;height: 32;">
+                                </span>
+                                <span class="icon">
+                                    <img src="img/payment2.png" style="width: 32;height: 32;">
+                                </span>
+                                <span class="icon">
+                                    <img src="img/payment3.png" style="width: 32;height: 32;">
+                                </span>
+                                <span class="icon">
+                                    <img src="img/payment4.png" style="width: 32;height: 32;">
+                                </span>
+                            </p>
+                        </div>
+                        <div class="colume" style="width: 300px;">
+                            <h4>Theo dõi chúng tôi trên</h4>
+                            <p class="social_media">
+                                <a href="">
+                                    <img src="img/fb.svg" style="width: 40px;height: 40px;">
+                                </a>
+                                <a href="">
+                                    <img src="img/yt.svg" style="width: 40px;height: 40px;">
+                                </a>
+                                <a href="">
+                                    <img src="img/tiktok.svg" style="width: 40px;height: 40px;">
+                                </a>
+                                <a href="">
+                                    <img src="img/insta.svg" style="width: 40px;height: 40px;">
+                                </a>
+                            </p>
+                            <h4>Tải ứng dụng trên điện thoại</h4>
+                            <div class="download">
+                                <img src="img/qr.png" style="width: 80px;height: 80px;">
+                                <div class="icon_download">
+                                    <a href="https://play.google.com/store/games?hl=vi&amp;gl=US">
+                                        <img src="img/download1.png"
+                                            style="height: 36px;width: 122px;">
+                                    </a>
+                                    <a href="https://play.google.com/store/games?hl=vi&amp;gl=US">
+                                        <img src="img/download2.png"
+                                            style="height: 36px;width: 122px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                            
+                    
+                </footer>
+            </body>
+</html>

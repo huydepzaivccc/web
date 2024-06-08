@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác Nhận Địa Chỉ và Mua Hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .form-container h2 {
+            margin-top: 0;
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-group button {
+            width: 48%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #218838;
+        }
+        .form-group .edit-button {
+            background-color: #007bff;
+        }
+        .form-group .edit-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Xác Nhận Địa Chỉ của Bạn</h2>
+        <div class="form-group">
+            <button onclick="purchase()">Mua Hàng</button>
+            <button class="edit-button" onclick="editAddress()">Sửa Địa Chỉ</button>
+        </div>
+    </div>
+
+    <script>
+        function purchase() {
+            alert("Đã xác nhận địa chỉ, mua hàng thành công.");
+        }
+        function editAddress() {
+            window.location.href = 'Dia_chi.html';
+        }
+    </script>
+</body>
+</html>
